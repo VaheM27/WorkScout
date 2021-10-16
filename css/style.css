@@ -1,0 +1,266 @@
+.section-one{
+    background-image: url(../Image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 480px;
+    font-family: 'Hind Siliguri', sans-serif;
+    z-index: 0;
+    position: relative;
+}
+.section-one::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 46, 50, 0.7);
+    z-index:-1;
+}
+nav{
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.658);
+    padding: 20px 0;
+}
+nav .container{
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+div.container .nav-left{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+div.container .nav-left ul li{
+    position: relative;
+}
+div.container .nav-left ul > li > a::after{
+    content: "\02C7";
+    font-size: 18px;
+    vertical-align:text-bottom;
+    margin-left: 10px;
+}
+nav div.container > .nav-left > ul > li:hover{
+    color:#26ae61;
+    border-radius: 4px;
+    transition: all 0.3s; 
+}
+nav div.container > .nav-left > ul > li > ul{
+    display: none;
+}
+nav div.container > .nav-left > ul > li > ul  li{
+    color: black;  
+}
+nav div.container > .nav-left > ul > li > ul  li:hover{
+    color: rgba(0, 0, 0, 0.712);
+    cursor: pointer;
+}
+nav div.container > .nav-left > ul > li:hover  ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    padding: 10px 30px;
+    min-width: 150px;
+    border-radius: 3px;
+    font-size: 17px; 
+    width: 20%;
+    text-align: start;
+    line-height: 35px;
+}
+div.container .nav-left ul{
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-one nav .container .nav-left ul li a{
+    color:white ;
+    font-weight: 700;
+    padding: 100px 0;
+} 
+div.container .nav-right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+div.container .nav-right ul{
+    width:100% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.container .nav-right ul li{
+    margin-left: 10px;
+    height:40px ;
+    padding:10px 15px ;
+    border-radius:3px ;
+    background: rgba(94, 94, 94, 0.4);
+}
+nav .container .nav-right ul li a{
+    color:white ;
+    font-weight: 700;
+}
+nav .container .nav-left ul li.a:nth-child(2){
+    height:40px ;
+    padding:10px 15px ;
+    background-color: #26ae61;
+    border-radius:3px ;
+}
+nav .container .nav-left ul li.c:nth-child(3),
+nav .container .nav-left ul li.c:nth-child(4),
+nav .container .nav-left ul li.c:nth-child(5){
+    height:40px ;
+    padding:10px 15px ;
+    border-radius:3px ;
+    transition:all .1s ;
+}
+nav .container .nav-left ul li.c:nth-child(3):hover,
+nav .container .nav-left ul li.c:nth-child(4):hover,
+nav .container .nav-left ul li.c:nth-child(5):hover{
+    background-color: #26ae61;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    width: 100%;
+    max-width: 1140px;
+    min-width: 480px;
+    padding:130px 0 ;
+    margin: 0 auto;
+}
+header div.container h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+header div.container .input{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header div.container .input input{
+    font-weight: 500;
+    font-size: 16px;
+    min-height: 60px;
+    padding: 19px 20px;
+    border: none;
+    width: 44.5%;
+    border-radius: 3px;
+}
+header div.container .input a{
+    background-color: #26ae61;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 60px;
+    width: 7%;
+}
+header div.container .input a:hover{
+    opacity: 0.9;
+}
+header div.container p{
+    margin: 25px 0;
+    color: white;
+    font-size: 16px;
+}
+header div.container p span{
+    border: 1px solid rgba(128, 128, 128, 0.658);
+    border-radius: 3px;
+    padding: 1px 8px;
+    background-color:rgba(94, 94, 94, 0.4);
+    cursor: pointer;
+}
+header .container p span:hover{
+    background-color:rgba(95, 95, 95, 0.3) ;
+}
+.section-two{
+    width: 100%;
+    max-width: 1140px;
+    min-height: 480px;
+    font-family: 'Hind Siliguri', sans-serif;
+    z-index: 0;
+    margin: 60px auto;
+    position: relative;
+}
+.section-two .container{
+    width: 100%;
+    max-width: 1140px;
+    min-width: 480px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.section-two h1{
+    font-size: 25px;
+    margin:20px 3px;
+}
+.section-two .container div{
+    width: 23.5%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 22.8px;
+    transition: all 0.2s linear;
+    cursor:pointer;
+}
+.section-two .container div i{
+    font-size: 30px;
+    color:#26ae61;
+}
+.section-two .container div p:nth-child(2){
+    color: grey;
+}
+.section-two .container div p:nth-child(3){
+    color: rgba(94, 94, 94, 0.4);
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(94, 94, 94, 0.048);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.section-two .container div:hover{
+    background-color: #26ae61;
+    transform: perspective(800px) translateZ(50px);
+    color: white;
+}
+.section-two .container div:hover i,
+.section-two .container div:hover p{                          
+    color: white;
+    transition:all .2s ;
+}
+.section-two div.button{
+    text-align: center;
+    width: 100%;
+}
+.section-two div.button a{
+    background-color: #26ae61;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 20px;
+    color: white;
+}
+.section-two div.button a:hover{
+    background-color: black;
+    transition: all 0.5s;
+}
