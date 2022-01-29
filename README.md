@@ -1,3 +1,3 @@
 # WorkScout
 https://vahem27.github.io/WorkScout/ - tap here for a quick preview of my project.
-![1](https://user-images.githubusercontent.com/60319108/151677208-8f4c7a77-4809-4285-92ec-ae41277b483c.png)
+<img width="1425" alt="Screen Shot 2022-01-30 at 00 55 55" src="https://user-images.githubusercontent.com/60319108/151677292-d6c24061-63ea-4d47-8535-cb767a7e0afe.png">
